@@ -114,9 +114,9 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Standort</h3>
               <p className="text-gray-600 mb-4">Pirckheimerstraße 68, 90408 Nürnberg</p>
-              <Link to="/contact" className="text-red-600 hover:text-red-700 font-semibold transition-colors duration-300">
+              <a href="https://www.google.com/maps/search/?api=1&query=Pirckheimerstra%C3%9Fe+68,+90408+N%C3%BCrnberg" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700 font-semibold transition-colors duration-300">
                 Zur Karte →
-              </Link>
+              </a>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -125,9 +125,14 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Bewertungen</h3>
               <p className="text-gray-600 mb-4">Überzeugen Sie sich von unserer Qualität</p>
-              <Link to="/reviews" className="text-red-600 hover:text-red-700 font-semibold transition-colors duration-300">
+              <a 
+                href="https://www.google.com/search?sca_esv=4517e16f74414041&sxsrf=AE3TifOiUIVvVwX9zCsapMI05878Ihootg:1766827331240&si=AMgyJEuzsz2NflaaWzrzdpjxXXRaJ2hfdMsbe_mSWso6src8s0Dn2roP-WUhxytcFTQQX1PkF24F_t68FW3D_Yr28nf59xnolMdQB8UhXr8N2wTTgV9OiYghNnqTC_0fD5pySaGIhXWl&q=Maakaz+Hair+Rezensionen&sa=X&ved=2ahUKEwj639TbuN2RAxVFQ_EDHdftF80Q0bkNegQIJhAE&biw=1280&bih=619&dpr=1.5"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-red-600 hover:text-red-700 font-semibold transition-colors duration-300"
+              >
                 Bewertungen ansehen →
-              </Link>
+              </a>
             </div>
           </div>
         </div>
