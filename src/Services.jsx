@@ -1,6 +1,5 @@
 import React from 'react';
 import { Scissors, Sparkles, Palette, Wind } from 'lucide-react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 
 const Services = () => {
   const services = [
