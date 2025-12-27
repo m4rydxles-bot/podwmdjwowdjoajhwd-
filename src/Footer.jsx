@@ -59,8 +59,8 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Opening Hours */}
-        <div>
+  {/* Opening Hours */}
+<div>
   <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
   <div className="space-y-2 text-gray-300 text-sm">
     <div className="flex justify-between items-center">
@@ -93,7 +93,7 @@ const Footer = () => {
     </div>
   </div>
 </div>
-        
+ </footer>     
           {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
