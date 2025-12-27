@@ -1,8 +1,12 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Bileşenlerin yollarını GitHub'daki 'src' klasörüne göre güncelledim
 import Header from "./src/Header";
 import Footer from "./src/Footer";
+
+// Sayfaların yollarını GitHub'daki 'src' klasörüne göre güncelledim
 import Home from "./src/Home";
 import About from "./src/About";
 import Services from "./src/Services";
