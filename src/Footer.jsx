@@ -92,8 +92,7 @@ const Footer = () => {
       <span className="text-gray-400">Geschlossen</span>
     </div>
   </div>
-</div>
- </footer>     
+</div>   
           {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
