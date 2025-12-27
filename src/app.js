@@ -1,13 +1,13 @@
 import React from "react";
 import "./app.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
-import Home from "./Home.jsx";
-import About from "./About.jsx";
-import Services from "./Services.jsx";
-import Reviews from "./Reviews.jsx";
-import Contact from "./Contact.jsx";
+import Header from "./Header.js";
+import Footer from "./Footer.js";
+import Home from "./Home.js";
+import About from "./About.js";
+import Services from "./Services.js";
+import Reviews from "./Reviews.js";
+import Contact from "./Contact.js";
 
 function App() {
   return (
