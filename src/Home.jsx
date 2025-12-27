@@ -28,16 +28,16 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="tel:09116608295">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl border-0">
+              <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl border-0 rounded-lg flex items-center justify-center">
                 <Phone className="w-5 h-5 mr-2" />
                 Jetzt anrufen
-              </Button>
+              </button>
             </a>
             <a href="https://www.google.com/maps/search/?api=1&query=Pirckheimerstra%C3%9Fe+68,+90408+N%C3%BCrnberg" target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-105">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold px-8 py-6 text-lg transition-all duration-300 hover:scale-105 rounded-lg flex items-center justify-center">
                 <MapPin className="w-5 h-5 mr-2" />
                 Route anzeigen
-              </Button>
+              </button>
             </a>
           </div>
         </div>
@@ -66,10 +66,10 @@ const Home = () => {
                 Bei uns steht Ihre Zufriedenheit im Mittelpunkt. Wir nehmen uns Zeit für Sie und Ihre individuellen Wünsche.
               </p>
               <Link to="/about">
-  <button className="bg-gray-900 hover:bg-gray-800 text-white font-medium transition-all duration-300 hover:shadow-lg px-6 py-3 rounded-lg text-lg">
-    Mehr über uns
-  </button>
-</Link>
+                <button className="bg-gray-900 hover:bg-gray-800 text-white font-medium transition-all duration-300 hover:shadow-lg px-6 py-3 rounded-lg text-lg">
+                  Mehr über uns
+                </button>
+              </Link>
             </div>
             <div className="relative">
               <img
