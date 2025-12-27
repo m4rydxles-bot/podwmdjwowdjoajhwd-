@@ -1,7 +1,6 @@
 import React from 'react';
 import { Phone, MapPin, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Button } from '../components/ui/button';
 
 const Home = () => {
   return (
