@@ -60,46 +60,41 @@ const Footer = () => {
           </div>
 
           {/* Opening Hours */}
-            <div>
-            <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
-            <div className="space-y-2 text-gray-300 text-sm">
-            <div className="flex justify-between items-center">
-                <span className="font-medium">Montag</span>
-                <span className="text-gray-400">09:00-19:00</span>
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
-            <div className="space-y-2 text-gray-300 text-sm">
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Dienstag</span>
-                <span className="text-gray-400">09:00-19:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Mittwoch</span>
-                <span className="text-gray-400">09:00-19:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Donnerstag</span>
-                <span className="text-gray-400">09:00-19:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Freitag</span>
-                <span className="text-gray-400">09:00-19:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">Samstag</span>
-                <span className="text-gray-400">09:00-16:00</span>
-              </div>
-              <div className="flex justify-between items-center opacity-60">
-                <span className="font-medium">Sonntag</span>
-                <span className="text-gray-400">Geschlossen</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-        {/* Bottom Bar */}
+        <div>
+  <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
+  <div className="space-y-2 text-gray-300 text-sm">
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Montag</span>
+      <span className="text-gray-400">09:00 - 19:00</span>
+    </div>
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Dienstag</span>
+      <span className="text-gray-400">09:00 - 19:00</span>
+    </div>
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Mittwoch</span>
+      <span className="text-gray-400">09:00 - 19:00</span>
+    </div>
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Donnerstag</span>
+      <span className="text-gray-400">09:00 - 19:00</span>
+    </div>
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Freitag</span>
+      <span className="text-gray-400">09:00 - 19:00</span>
+    </div>
+    <div className="flex justify-between items-center">
+      <span className="font-medium">Samstag</span>
+      <span className="text-gray-400">09:00 - 16:00</span>
+    </div>
+    <div className="flex justify-between items-center opacity-60">
+      <span className="font-medium">Sonntag</span>
+      <span className="text-gray-400">Geschlossen</span>
+    </div>
+  </div>
+</div>
+        
+          {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
