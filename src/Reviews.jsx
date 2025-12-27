@@ -1,6 +1,5 @@
 import React from 'react';
 import { Star, Quote } from 'lucide-react';
-import { Card, CardContent } from '../components/ui/card';
 
 const Reviews = () => {
   const ratings = [
