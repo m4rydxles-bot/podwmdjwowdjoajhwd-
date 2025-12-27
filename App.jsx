@@ -1,17 +1,13 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// Bileşenlerin yollarını GitHub'daki 'src' klasörüne göre güncelledim
-import Header from "./src/Header";
-import Footer from "./src/Footer";
-
-// Sayfaların yollarını GitHub'daki 'src' klasörüne göre güncelledim
-import Home from "./src/Home";
-import About from "./src/About";
-import Services from "./src/Services";
-import Reviews from "./src/Reviews";
-import Contact from "./src/Contact";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import Home from "./Home.jsx";
+import About from "./About.jsx";
+import Services from "./Services.jsx";
+import Reviews from "./Reviews.jsx";
+import Contact from "./Contact.jsx";
 
 function App() {
   return (
