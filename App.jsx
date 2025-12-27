@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./scr/Header"; 
-import Footer from "./scr/Footer"; 
-import Home from "./scr/Home";
-import About from "./scr/About";
-import Services from "./scr/Services";
-import Reviews from "./scr/Reviews";
-import Contact from "./scr/Contact";
-function App() {
+import Home from "./scr/Home.jsx";
+import About from "./scr/About.jsx";
+import Services from "./scr/Services.jsx";
+import Reviews from "./scr/Reviews.jsx";
+import Contact from "./scr/Contact.jsx";
+import Header from "./scr/Header.jsx"; 
+import Footer from "./scr/Footer.jsx";
   return (
     <div className="App">
       <BrowserRouter>
