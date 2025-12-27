@@ -66,10 +66,10 @@ const Home = () => {
                 Bei uns steht Ihre Zufriedenheit im Mittelpunkt. Wir nehmen uns Zeit für Sie und Ihre individuellen Wünsche.
               </p>
               <Link to="/about">
-                <Button size="lg" className="bg-gray-900 hover:bg-gray-800 text-white font-medium transition-all duration-300 hover:shadow-lg">
-                  Mehr über uns
-                </Button>
-              </Link>
+  <button className="bg-gray-900 hover:bg-gray-800 text-white font-medium transition-all duration-300 hover:shadow-lg px-6 py-3 rounded-lg text-lg">
+    Mehr über uns
+  </button>
+</Link>
             </div>
             <div className="relative">
               <img
