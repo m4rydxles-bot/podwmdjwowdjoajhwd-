@@ -1,6 +1,9 @@
 import React from 'react';
 import { Phone, MapPin, Clock } from 'lucide-react';
 
+const Card = ({ children, className }) => <div className={`bg-white rounded-xl overflow-hidden ${className}`}>{children}</div>;
+const CardContent = ({ children, className }) => <div className={className}>{children}</div>;
+
 const Contact = () => {
   return (
     <div className="min-h-screen bg-white">
@@ -95,7 +98,7 @@ const Contact = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Anfahrt</h2>
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-gray-100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2594.8493756!2d11.0653!3d49.4621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a7b4a4a7b7%3A0x1!2sPirckheimerstra%C3%9Fe%2068%2C%2090408%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.5645517173455!2d11.0827258!3d49.4628108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f579979c504a9%3A0xc33e5066914619d0!2sPirckheimerstra%C3%9Fe%2068%2C%2090408%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1710000000000!5m2!1sde!2sde"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}
