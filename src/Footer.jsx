@@ -52,48 +52,50 @@ const Footer = () => {
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <span>0911 6608295</span>
               </a>
-              <a href="https://www.google.com/maps/search/?api=1&query=Pirckheimerstra%C3%9Fe+68,+90408+N%C3%BCrnberg" target="_blank" rel="noopener noreferrer" className="flex items-start space-x-3 text-gray-300 hover:text-red-500 transition-colors duration-300 group">
+              <a href="https://maps.google.com/?q=Pirckheimerstraße+68,90408+Nürnberg" target="_blank" rel="noopener noreferrer" className="flex items-start space-x-3 text-gray-300 hover:text-red-500 transition-colors duration-300 group">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                 <span>Pirckheimerstraße 68,<br />90408 Nürnberg</span>
               </a>
             </div>
           </div>
 
-  {/* Opening Hours */}
-<div>
-  <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
-  <div className="space-y-2 text-gray-300 text-sm">
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Montag</span>
-      <span className="text-gray-400">09:00 - 19:00</span>
-    </div>
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Dienstag</span>
-      <span className="text-gray-400">09:00 - 19:00</span>
-    </div>
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Mittwoch</span>
-      <span className="text-gray-400">09:00 - 19:00</span>
-    </div>
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Donnerstag</span>
-      <span className="text-gray-400">09:00 - 19:00</span>
-    </div>
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Freitag</span>
-      <span className="text-gray-400">09:00 - 19:00</span>
-    </div>
-    <div className="flex justify-between items-center">
-      <span className="font-medium">Samstag</span>
-      <span className="text-gray-400">09:00 - 16:00</span>
-    </div>
-    <div className="flex justify-between items-center opacity-60">
-      <span className="font-medium">Sonntag</span>
-      <span className="text-gray-400">Geschlossen</span>
-    </div>
-  </div>
-</div>   
-          {/* Bottom Bar */}
+          {/* Opening Hours */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-red-500">Öffnungszeiten</h3>
+            <div className="space-y-2 text-gray-300 text-sm">
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Montag</span>
+                <span className="text-gray-400">09:00 - 19:00</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Dienstag</span>
+                <span className="text-gray-400">09:00 - 19:00</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Mittwoch</span>
+                <span className="text-gray-400">09:00 - 19:00</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Donnerstag</span>
+                <span className="text-gray-400">09:00 - 19:00</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Freitag</span>
+                <span className="text-gray-400">09:00 - 19:00</span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span className="font-medium">Samstag</span>
+                <span className="text-gray-400">09:00 - 16:00</span>
+              </div>
+              <div className="flex justify-between items-center opacity-60">
+                <span className="font-medium">Sonntag</span>
+                <span className="text-gray-400">Geschlossen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
@@ -113,5 +115,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
