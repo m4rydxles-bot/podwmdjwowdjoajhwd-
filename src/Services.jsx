@@ -1,6 +1,12 @@
 import React from 'react';
 import { Scissors, Sparkles, Palette, Wind } from 'lucide-react';
 
+const Card = ({ children, className }) => <div className={`bg-white rounded-xl overflow-hidden ${className}`}>{children}</div>;
+const CardHeader = ({ children }) => <div className="p-6 pb-0">{children}</div>;
+const CardTitle = ({ children, className }) => <h3 className={`font-bold ${className}`}>{children}</h3>;
+const CardDescription = ({ children, className }) => <p className={`text-gray-500 ${className}`}>{children}</p>;
+const CardContent = ({ children }) => <div className="p-6">{children}</div>;
+
 const Services = () => {
   const services = [
     {
